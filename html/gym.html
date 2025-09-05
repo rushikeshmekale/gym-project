@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM Landing Page</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="gym.css" />
+
+  </head>
+  <body>
+    <!-- Menu -->
+    <div class="menu">
+      <div class="container flex">
+        <!-- Mobile Button -->
+        <div class="mobile-btn">
+          <ion-icon name="grid"></ion-icon>
+        </div>
+        <div class="logo" class="flex_row">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AP1GczMwEeKXuOLhnPcrmSjPifYZchqRGqPtIkDpBVg7UAmpkN1Aw6BvS4yNUz3OzlwpwhYHs6y4CGO2wQjJGhDEkTPAl7-q3xd07nr4LIGdo8lRcdtqh2k=w2400"
+            alt="builderz gym"
+          />
+          <h2>BUILDERZ GYM</h2>
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#why-us">Features</a></li>
+          <li class="nav-item"><a href="#explore">Explore</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+
+        
+
+
+          <!-- Trigger Buttons -->
+  <div class="center-btns">
+    <button class="btn mt" onclick="openModal('login')">Login</button>
+    <button class="btn mt" onclick="openModal('signup')">Signup</button>
+  </div>
+
+  <!-- Modal Background -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+
+      <!-- Login Form -->
+      <div id="loginForm" class="form-box">
+        <h2>Login</h2>
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button class="submit-btn">Login</button>
+      </div>
+
+      <!-- Signup Form -->
+      <div id="signupForm" class="form-box" style="display: none;">
+        <h2>Signup</h2>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button class="submit-btn">Signup</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="gym.js"></script>
+
+                  
+
+
+
+      </div>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex">
+        <div class="text">
+          <h1 class="mb">
+            Complete Daily <br />
+            <span>Workout</span> For Men & Women
+          </h1>
+
+          <p class="mb">
+            Strong isn’t just for men, and beauty isn’t just for women — in the gym, we all rise together.
+            No excuses, no limits — sweat, strength, and success belong to everyone.
+          </p>
+
+          <a href="#" class="btn mt">Get Started Now</a>
+        </div>
+
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\Screenshot_20250905_165652_Chrome.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Why Us -->
+    <div class="section" id="why-us">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary mb">Why Choose Us?</h2>
+          
+              <p class="tertiary">
+                ✅ Certified Trainers – Get guidance from highly qualified fitness professionals who care about your progress.
+              </p>
+              <p class="tertiary">
+                ✅ Modern Equipment – Train with the latest machines and tools designed for strength, cardio, and flexibility.
+              </p>
+              <p class="tertiary">
+                ✅ Personalized Programs – From beginners to pros, we create workout and diet plans that fit your lifestyle.
+              </p>
+
+          <h3 class="secondary mb">Consulatation with Expert.</h3>
+              <p class="tertiary">
+               ✅ Proven Results – Join our community of members who have transformed their health, body, and mindset. 
+              </p>
+              <p class="tertiary">
+                ✅ Affordable Memberships – Flexible packages that give you maximum value without breaking the bank.
+              </p>
+              
+              <p class="tertiary">
+               ✅ Motivating Environment – A supportive, energetic atmosphere that keeps you inspired every single day.
+              </p>
+
+        </div>
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\why-us.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Why Us -->
+
+    <!-- Explore -->
+    <div class="section" id="explore">
+      <div class="container flex">
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\explore.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2 class="primary mb">
+            Explore Our Fitness <br />
+            Studio
+          </h2>
+          <p class="tertiary mb">
+            where strength meets confidence.
+            Transform your body, mind, and lifestyle with us.Discover a space built for everyone.
+            Stronger, fitter, healthier — together
+          </p>
+
+          <a href="#" class="btn mt">Get Started Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Explore -->
+
+    <!-- Trainer -->
+    <div class="section" id="trainer">
+      <h2 class="primary mb">Our Professional Trainers</h2>
+      <div class="container flex">
+          <div class="trainer">
+            <img
+              src="c:\gym-project\images\trainer1.jpg"
+              alt=""
+            />
+            <h3 class="secondary mb">uday zade</h3>
+            <p class="tertiary mb">
+              professional trainer with 3+ years of experience in fitness and bodybuilding.
+            </p>
+
+            <a href="#" class="btn-2">
+              <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="trainer">
+            <img
+              src="c:\gym-project\images\trainer2.jpg"
+              alt=""
+            />
+            <h3 class="secondary mb">bansal</h3>
+            <p class="tertiary mb">
+              professional trainer with 4+ years of experience in fitness and bodybuilding.
+            </p>
+
+            <a href="#" class="btn-2">
+              <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="trainer">
+            <img
+              src="c:\gym-project\images\trainer3.jpg"
+              alt=""
+            />
+            <h3 class="secondary mb">krishna</h3>
+            <p class="tertiary mb">
+              professional trainer with 4+ years of experience especially of girls and womens
+            </p>
+
+            <a href="#" class="btn-2">
+              <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+            </a>
+          </div>
+      </div>
+    </div>
+    <!-- End Trainer -->
+
+    <!-- Testimonial -->
+    <div class="section" id="testimonial">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary">
+            That's What Our Super <br />
+            Client Says
+          </h2>
+
+          <br />
+          <br />
+          <br />
+
+          <div class="client">
+            <img
+              src="c:\gym-project\images\dreamy-energized-goodlooking-redhead-female-yellow-sweater-found-excellent-holiday-gift-consumer (2).jpg"
+              alt=""
+            />
+            <h2 class="secondary">Exellent Training</h2>
+            <p class="tertiary">
+              🌟🌟🌟🌟🌟“Best gym in town! The trainers are professional and motivating. I’ve seen real results in just 3 months.” – Arjun ingole.
+            </p>
+            <p class="tertiary">
+              🌟🌟🌟🌟“Amazing environment, modern equipment, and very supportive staff. Highly recommend Explore Fitness Studio!” – khushi.
+            </p>
+            <p class="tertiary">
+              🌟🌟🌟🌟🌟“Love the energy! The trainers push you to be your best. Definitely worth it.” – rutvik sawant.
+            </p>
+
+          </div>
+        </div>
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\testimonial.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Discount -->
+    <div class="section" id="discount">
+      <div class="container flex">
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\discount.png"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2 class="primary mb">
+            Fitness Classes This Summer, Pay Now And Get 25% Discount
+          </h2>
+
+          <p class="tertiary mb">
+            🔥 Student Special – Exclusive discounted memberships for students.
+            🔥 Free Trial Class – Try before you join.
+            🔥 Personal Training Packages – Up to 25% off this summer.
+          </p>
+
+          <a href="#" class="btn bt">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Discount -->
+
+    <!-- pre workout -->
+    <div class="section" id="pre-workout">
+      <div class="container flex">
+        <div class="visual">
+          <img
+            src="c:\gym-project\images\Screenshot 2025-09-05 015616.png"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2 class="primary mb">
+           Membership Plans & Offers🏋️
+          </h2>
+
+          <p class="tertiary mb">
+            🏋️ Membership Plans
+💳 12 Months Plan
+
+Unlimited gym access
+
+Free fitness assessment
+
+2 Personal Training sessions included
+
+Free diet consultation
+
+Priority access to special classes
+Price: ₹9XXX
+
+💳 6 Months Plan
+
+Unlimited gym access
+
+Free fitness assessment
+
+1 Personal Training session included
+
+Discounted diet consultation
+
+Access to regular classes
+Price: ₹24XX
+          </p>
+
+           <!-- whatsapp button -->
+
+          <a href="https://wa.me/917559280058?text=Hi,%20I%20want%20to%20know%20more%20about%20your%20gym%20plans."
+            target="_blank"
+            class="whatsapp-btn">
+            <b>I WANT </b> TO KNOW MORE ON WHATSAPP 
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <!-- pre workout -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+      <div class="container flex">
+                <div class="contact-section">
+            <a href="tel:+917559280058" class="contact-btn call">
+              <i class="fa fa-phone"></i> Call us (24x7 Available)
+            </a>
+
+            <a href="https://maps.app.goo.gl/YTqBxUfqZiGYA7sr5" target="_blank" class="contact-btn locate">
+              <i class="fa fa-location-dot"></i> Locate us
+            </a>
+
+            <a href="mailto:rushikeshmekale@gmail.com" class="contact-btn email">
+              <i class="fa fa-envelope"></i> Send us an Email
+            </a>
+          </div>
+        
+
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- contact -->
+
+
+    <footer class="footer">
+      <div class="container flex">
+        <p class="tertiary">
+          &copy; 2025 Builderz Gym. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    
+       <!--   BTN   -->
+    <a href="https://www.youtube.com/results?search_query=gym+training+hacks" class="youtube" target="__blank">
+  <p>Watch Tutorial 🔥</p>
+</a>
+    
+
+
+    <!-- Ion Icons Js -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+
+    <script src="gym.js"></script>
+
+
+
+
+  </body>
+</html>
